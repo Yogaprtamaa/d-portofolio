@@ -11,11 +11,11 @@ export function Footer() {
               Yoga's Portofolio
             </div>
             <p className="mt-3 max-w-[65ch] text-sm leading-6 text-[#6E6E73]">
-              Mobile Developer Flutter, Fullstack & UI/UX Designer crafting responsive, functional, and user-centered applications.
+              Fullstack & Web3 Developer crafting responsive, user-centered apps — from Next.js and Flutter to Solana smart contracts.
             </p>
           </div>
 
-          <div className="flex gap-12 text-sm">
+          <div className="flex flex-wrap gap-8 text-sm md:gap-12">
             <div>
               <p className="text-xs font-semibold uppercase tracking-widest text-[#6E6E73]">Navigate</p>
               <ul className="mt-3 space-y-2">
@@ -28,10 +28,10 @@ export function Footer() {
             <div>
               <p className="text-xs font-semibold uppercase tracking-widest text-[#6E6E73]">Connect</p>
               <ul className="mt-3 space-y-2">
-                <li><a href="mailto:prtmyog17@gmail.com" className="text-[#1D1D1F] hover:text-[#0058B0]">prtmyog17@gmail.com</a></li>
+                <li><a href="mailto:prtmyog17@gmail.com" className="text-[#1D1D1F] hover:text-[#0058B0] break-all">prtmyog17@gmail.com</a></li>
                 <li><a href="https://www.linkedin.com/in/yoga-pratama-770a1b2b8/" target="_blank" rel="noopener noreferrer" className="text-[#1D1D1F] hover:text-[#0058B0]">LinkedIn</a></li>
                 <li><a href="https://github.com/Yogaprtamaa" target="_blank" rel="noopener noreferrer" className="text-[#1D1D1F] hover:text-[#0058B0]">GitHub</a></li>
-                <li><a href="https://www.instagram.com/rvyoug/" target="_blank" rel="noopener noreferrer" className="text-[#1D1D1F] hover:text-[#0058B0]">Instagram — @rvyoug</a></li>
+                <li><a href="https://www.instagram.com/rvoug/" target="_blank" rel="noopener noreferrer" className="text-[#1D1D1F] hover:text-[#0058B0]">Instagram — @rvoug</a></li>
               </ul>
             </div>
           </div>

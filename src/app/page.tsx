@@ -77,15 +77,15 @@ export default function Home() {
         </div>
       </section>
 
-      {/* FEATURED PROJECTS */}
-      <section className="mx-auto max-w-[1200px] px-5 py-12 md:px-10 md:py-16">
-        <div className="flex flex-col gap-6 md:flex-row md:items-end md:justify-between">
+      {/* FEATURED PROJECTS — polished */}
+      <section className="mx-auto max-w-[1200px] px-5 py-14 md:px-10 md:py-20">
+        <div className="flex flex-col gap-4 md:flex-row md:items-end md:justify-between">
           <SectionHeading
-            title="Featured projects"
-            description="A curated selection, from admission platforms to design systems. Each one built with care."
+            title="Featured work"
+            description="A curated selection — mobile apps, e-commerce, dashboards, and Web3. Each built with care, from slicing to production."
           />
-          <Link href="/projects" className="hidden shrink-0 text-sm font-medium text-[#0058B0] hover:text-[#004A9B] md:inline-flex">
-            View all projects →
+          <Link href="/projects" className="hidden shrink-0 items-center gap-1.5 rounded-full border border-black/10 bg-white px-5 py-2.5 text-sm font-medium text-[#1D1D1F] hover:bg-[#F5F5F7] transition-colors md:inline-flex">
+            View all projects <span aria-hidden>→</span>
           </Link>
         </div>
 

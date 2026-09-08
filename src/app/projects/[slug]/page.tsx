@@ -62,15 +62,22 @@ export default async function ProjectDetail({ params }: Props) {
               <p className="mt-1 text-sm font-medium text-[#1D1D1F]">{project.year}</p>
             </div>
             <div className="flex items-center">
-              {project.link && (
+              {project.link ? (
                 <a
                   href={project.link}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="inline-flex h-10 items-center justify-center rounded-full bg-[#0071E3] px-6 text-sm font-medium text-white hover:bg-[#0077ED]"
+                  className="inline-flex h-10 items-center justify-center gap-1.5 rounded-full bg-[#0071E3] px-6 text-sm font-medium text-white transition-colors hover:bg-[#0077ED] active:bg-[#006EDB]"
                 >
-                  Visit Project →
+                  {project.link.includes("figma.com") ? "See Figma" : "See Website"} <span aria-hidden className="text-xs">↗</span>
                 </a>
+              ) : (
+                <p className="text-xs leading-5 text-[#6E6E73]">
+                  Private deployment —{" "}
+                  <Link href="/contact" className="font-medium text-[#0058B0] hover:underline">
+                    ask me for access →
+                  </Link>
+                </p>
               )}
             </div>
           </div>

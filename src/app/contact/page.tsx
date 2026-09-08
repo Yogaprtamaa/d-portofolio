@@ -67,7 +67,7 @@ export default function ContactPage() {
           </div>
 
           <div className="mt-6 flex gap-3 text-xs text-[#6E6E73]">
-            <a href="https://www.instagram.com/rvyoug/" target="_blank" rel="noopener noreferrer" className="hover:text-[#1D1D1F]">Instagram — @rvyoug</a>
+            <a href="https://www.instagram.com/rvoug/" target="_blank" rel="noopener noreferrer" className="hover:text-[#1D1D1F]">Instagram — @rvoug</a>
           </div>
         </Reveal>
 

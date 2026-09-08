@@ -1,9 +1,11 @@
 type Item = { year: string; role: string; org: string; description: string };
 
 const items: Item[] = [
-  { year: "2025, Present", role: "Frontend Developer", org: "PKU Masjid Istiqlal", description: "Building responsive interfaces and improving the digital admission experience for thousands of applicants." },
-  { year: "2023, 2025", role: "UI/UX Designer & Frontend", org: "Freelance · Startups & Institutions", description: "Partnered with founders and educators to ship 12+ products, from dashboards to design systems." },
-  { year: "2021, 2023", role: "Full Stack Developer", org: "Digital Cooperative Platform", description: "Led member portal development serving 1,200+ members; cut reconciliation from days to hours." },
+  { year: "Apr 2026 – Present", role: "Solana Smart Contract Developer", org: "Z4 Foundation · Remote", description: "Building Solana programs with Rust and Anchor: secure instructions, PDA structures, on-chain transaction workflows, and client integration via Anchor IDL." },
+  { year: "Dec 2025 – Feb 2026", role: "Frontend Developer", org: "PKUMI · Jakarta Pusat", description: "Engineered frontend interfaces for an admission management platform with Next.js, React, and REST APIs — registration workflows and user-facing features." },
+  { year: "Jan 2026 – Feb 2026", role: "Mentor UI/UX Design", org: "Google Developer Group on Campus · UIN Jakarta", description: "Mentored students in design thinking, wireframing, prototyping, and usability testing; ran design reviews and workshops on modern UI/UX practice." },
+  { year: "Mar 2025 – Oct 2025", role: "UI/UX Designer", org: "CV Miftah Digital Solusi · Hybrid", description: "Designed user-centered interfaces for education and logistics products — Smart System Education and a logistics suite with tracking, warehouse, and analytics dashboards." },
+  { year: "Mar 2024 – Jul 2025", role: "UI Designer", org: "Lap.On · Remote", description: "Designed mobile booking flows for a sports field platform on Android and iOS — real-time availability, cleaner navigation, and reduced friction across key workflows." },
 ];
 
 export function Timeline() {

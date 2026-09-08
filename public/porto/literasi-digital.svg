@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="900" viewBox="0 0 1200 900">
+  <rect width="1200" height="900" fill="#F2F2F2"/>
+  <rect x="0" y="0" width="1200" height="24" fill="#0B6B3A"/>
+  <rect x="0" y="876" width="1200" height="24" fill="#0B6B3A"/>
+  <circle cx="1020" cy="180" r="220" fill="#0B6B3A" opacity="0.08"/>
+  <circle cx="1020" cy="180" r="140" fill="#0B6B3A" opacity="0.08"/>
+  <rect x="120" y="600" width="120" height="12" rx="6" fill="#0B6B3A"/>
+  <text x="120" y="380" font-family="Inter, -apple-system, 'Segoe UI', sans-serif" font-size="120" font-weight="700" letter-spacing="-3" fill="#1D1D1F">Literasi</text>
+  <text x="120" y="500" font-family="Inter, -apple-system, 'Segoe UI', sans-serif" font-size="120" font-weight="700" letter-spacing="-3" fill="#1D1D1F">Digital</text>
+  <text x="120" y="660" font-family="Inter, -apple-system, 'Segoe UI', sans-serif" font-size="28" font-weight="600" letter-spacing="3" fill="#0B6B3A">LANDING PAGE · NEXT.JS</text>
+</svg>

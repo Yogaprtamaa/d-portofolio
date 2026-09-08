@@ -21,15 +21,15 @@ const newsreader = Newsreader({
 
 export const metadata: Metadata = {
   title: {
-    default: "Yoga Pratama, Mobile Developer Flutter, Fullstack and UI UX Designer",
+    default: "Yoga Pratama, Fullstack & Web3 Developer",
     template: "%s | Yoga Pratama",
   },
   description:
-    "Mobile Developer Flutter, Fullstack and UI UX Designer, Yoga Pratama. Responsive, functional, user-centered applications with clean code. Based in Banten.",
+    "Fullstack & Web3 Developer, Yoga Pratama. Next.js, Flutter, UI/UX, and Solana smart contracts. Responsive, user-centered applications with clean code. Based in Jakarta.",
   metadataBase: new URL("https://yogapratama.design"),
   openGraph: {
     title: "Yoga Pratama | Portofolio",
-    description: "Mobile Developer Flutter, Gelora, BISINDO, School Management, and 20+ projects.",
+    description: "Fullstack & Web3 Developer — Seedrym, Gelora, BISINDO, School Management, and 20+ projects.",
     type: "website",
     locale: "en_US",
   },
@@ -47,7 +47,7 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
           Skip to content
         </a>
         <Navbar />
-        <main id="main" className="flex-1 pt-16 md:pt-0">
+        <main id="main" className="flex-1 pt-16">
           {children}
         </main>
         <Footer />
