@@ -49,7 +49,7 @@ export function ContactForm() {
             aria-invalid={!!errors.name}
             aria-describedby={errors.name ? "err-name" : undefined}
             placeholder="Your name"
-            className="mt-2 w-full rounded-full border border-black/10 bg-[#F5F5F7] px-4 py-3 text-[15px] text-[#1D1D1F] placeholder:text-[#6E6E73] focus:border-[#0071E3] focus:bg-white focus:outline-none focus:ring-4 focus:ring-[#0071E3]/10"
+            className="mt-2 w-full rounded-full border border-black/10 bg-[#F5F5F7] px-4 py-3 text-base text-[#1D1D1F] placeholder:text-[#6E6E73] focus:border-[#0071E3] focus:bg-white focus:outline-none focus:ring-4 focus:ring-[#0071E3]/10"
           />
           {errors.name && <p id="err-name" className="mt-2 text-xs text-red-600">{errors.name}</p>}
         </div>
@@ -67,7 +67,7 @@ export function ContactForm() {
             aria-invalid={!!errors.email}
             aria-describedby={errors.email ? "err-email" : undefined}
             placeholder="you@example.com"
-            className="mt-2 w-full rounded-full border border-black/10 bg-[#F5F5F7] px-4 py-3 text-[15px] text-[#1D1D1F] placeholder:text-[#6E6E73] focus:border-[#0071E3] focus:bg-white focus:outline-none focus:ring-4 focus:ring-[#0071E3]/10"
+            className="mt-2 w-full rounded-full border border-black/10 bg-[#F5F5F7] px-4 py-3 text-base text-[#1D1D1F] placeholder:text-[#6E6E73] focus:border-[#0071E3] focus:bg-white focus:outline-none focus:ring-4 focus:ring-[#0071E3]/10"
           />
           {errors.email && <p id="err-email" className="mt-2 text-xs text-red-600">{errors.email}</p>}
         </div>
@@ -84,7 +84,7 @@ export function ContactForm() {
             aria-invalid={!!errors.message}
             aria-describedby={errors.message ? "err-message" : undefined}
             placeholder="Tell me about your project..."
-            className="mt-2 w-full resize-none rounded-[20px] border border-black/10 bg-[#F5F5F7] px-4 py-3 text-[15px] leading-6 text-[#1D1D1F] placeholder:text-[#6E6E73] focus:border-[#0071E3] focus:bg-white focus:outline-none focus:ring-4 focus:ring-[#0071E3]/10"
+            className="mt-2 w-full resize-none rounded-[20px] border border-black/10 bg-[#F5F5F7] px-4 py-3 text-base leading-6 text-[#1D1D1F] placeholder:text-[#6E6E73] focus:border-[#0071E3] focus:bg-white focus:outline-none focus:ring-4 focus:ring-[#0071E3]/10"
           />
           {errors.message && <p id="err-message" className="mt-2 text-xs text-red-600">{errors.message}</p>}
         </div>

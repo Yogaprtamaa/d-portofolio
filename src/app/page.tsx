@@ -70,7 +70,7 @@ export default function Home() {
                 <span className="h-2 w-2 rounded-full bg-green-500" aria-hidden />
                 <span>Available for new projects</span>
                 <span className="text-black/20">·</span>
-                <span className="text-xs">Banten · Remote friendly</span>
+                <span className="text-xs">Jakarta · Remote friendly</span>
               </div>
             </div>
           </Reveal>
@@ -133,7 +133,7 @@ export default function Home() {
                 className="h-14 w-14 rounded-full object-cover"
               />
               <div>
-                <p className="text-sm font-semibold text-[#1D1D1F]">Yoga Pratama — Banten</p>
+                <p className="text-sm font-semibold text-[#1D1D1F]">Yoga Pratama — Jakarta</p>
                 <p className="text-xs text-[#6E6E73]">Mobile & Fullstack Developer</p>
               </div>
               <span className="ml-auto h-2.5 w-2.5 rounded-full bg-green-500" aria-hidden />
@@ -143,7 +143,7 @@ export default function Home() {
             </blockquote>
             <div className="mt-6 flex divide-x divide-black/10 border-t border-black/10 pt-4 text-center">
               <div className="flex-1 px-2">
-                <p className="text-lg font-semibold tabular-nums">23+</p>
+                <p className="text-lg font-semibold tabular-nums">25+</p>
                 <p className="text-[11px] uppercase tracking-widest text-[#6E6E73]">Projects</p>
               </div>
               <div className="flex-1 px-2">

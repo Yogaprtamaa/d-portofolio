@@ -108,17 +108,17 @@ export default async function ProjectDetail({ params }: Props) {
       <div className="mx-auto max-w-[1200px] px-5 py-12 md:px-10">
         <div className="grid gap-10 lg:grid-cols-[1.7fr_0.9fr]">
           <div className="space-y-10">
-            <section className="rounded-[24px] bg-white p-8 border border-black/5">
+            <section className="rounded-[24px] bg-white p-6 md:p-8 border border-black/5">
               <h2 className="text-[11px] font-semibold uppercase tracking-[0.12em] text-[#6E6E73]">The Challenge</h2>
               <p className="mt-3 max-w-[65ch] text-[16px] leading-7 text-[#1D1D1F]">{project.challenge}</p>
             </section>
 
-            <section className="rounded-[24px] bg-white p-8 border border-black/5">
+            <section className="rounded-[24px] bg-white p-6 md:p-8 border border-black/5">
               <h2 className="text-[11px] font-semibold uppercase tracking-[0.12em] text-[#6E6E73]">The Goal</h2>
               <p className="mt-3 max-w-[65ch] text-[16px] leading-7 text-[#1D1D1F]">{project.goal}</p>
             </section>
 
-            <section className="rounded-[24px] bg-white p-8 border border-black/5">
+            <section className="rounded-[24px] bg-white p-6 md:p-8 border border-black/5">
               <h2 className="text-[11px] font-semibold uppercase tracking-[0.12em] text-[#6E6E73]">My Role</h2>
               <p className="mt-3 max-w-[65ch] text-[15px] leading-7 text-[#1D1D1F]">{project.role}</p>
               <ul className="mt-4 space-y-2 text-sm leading-6 text-[#6E6E73]">
@@ -130,7 +130,7 @@ export default async function ProjectDetail({ params }: Props) {
               </ul>
             </section>
 
-            <section className="rounded-[24px] bg-white p-8 border border-black/5">
+            <section className="rounded-[24px] bg-white p-6 md:p-8 border border-black/5">
               <h2 className="text-[11px] font-semibold uppercase tracking-[0.12em] text-[#6E6E73]">The Process</h2>
               <ol className="mt-4 space-y-0">
                 {project.process.map((step, i) => (
@@ -144,12 +144,12 @@ export default async function ProjectDetail({ params }: Props) {
               </ol>
             </section>
 
-            <section className="rounded-[24px] bg-white p-8 border border-black/5">
+            <section className="rounded-[24px] bg-white p-6 md:p-8 border border-black/5">
               <h2 className="text-[11px] font-semibold uppercase tracking-[0.12em] text-[#6E6E73]">The Solution</h2>
               <p className="mt-3 max-w-[65ch] text-[16px] leading-7 text-[#1D1D1F]">{project.solution}</p>
             </section>
 
-            <section className="rounded-[24px] bg-[#0071E3] p-8 text-white">
+            <section className="rounded-[24px] bg-[#0071E3] p-6 md:p-8 text-white">
               <h2 className="text-[11px] font-semibold uppercase tracking-[0.12em] text-white/70">The Result</h2>
               <p className="mt-3 max-w-[65ch] text-[16px] leading-7">{project.result}</p>
             </section>

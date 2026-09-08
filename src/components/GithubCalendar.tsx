@@ -246,6 +246,7 @@ export const GithubCalendar = memo(function GithubCalendar({
     const onLeave = () => setTooltip(null);
     canvas.addEventListener("mousemove", onMove);
     canvas.addEventListener("mouseleave", onLeave);
+    canvas.addEventListener("click", onMove); // touch: tap a cell for its tooltip
 
     // Start on an empty cell near the grid center
     const midW = Math.floor(weeks.length / 2);
@@ -566,6 +567,7 @@ export const GithubCalendar = memo(function GithubCalendar({
       window.removeEventListener("keydown", onKey);
       canvas.removeEventListener("mousemove", onMove);
       canvas.removeEventListener("mouseleave", onLeave);
+      canvas.removeEventListener("click", onMove);
     };
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [fetchedData, weeks, valid, svgWidth, svgHeight]);
