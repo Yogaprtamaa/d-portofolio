@@ -1,0 +1,61 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-09-08T15:00:00.000Z",
+  "title": "Design System: Portofolio Rapi",
+  "extensions": {
+    "colorMeta": {
+      "background": { "role": "neutral", "displayName": "Paper", "canonical": "#F5F5F7", "tonalRamp": ["#0F0F10","#2A2A2E","#4A4A4F","#6E6E73","#86868B","#A8A8AD","#D2D2D7","#F5F5F7"] },
+      "surface": { "role": "neutral", "displayName": "Surface", "canonical": "#FFFFFF", "tonalRamp": ["#FFFFFF","#FFFFFF","#FFFFFF","#FFFFFF","#FFFFFF","#FFFFFF","#FFFFFF","#FFFFFF"] },
+      "foreground": { "role": "neutral", "displayName": "Ink", "canonical": "#1D1D1F", "tonalRamp": ["#1D1D1F","#2C2C2E","#3A3A3C","#6E6E73","#86868B","#AEAEB2","#D2D2D7","#F5F5F7"] },
+      "accent": { "role": "primary", "displayName": "Quiet Blue", "canonical": "#0071E3", "tonalRamp": ["#001E3D","#003A75","#0052A3","#006EDB","#0071E3","#4A90E2","#8AB4F0","#D4E4FF"] }
+    },
+    "typographyMeta": {
+      "display": { "displayName": "Display", "purpose": "Hero only — one per page, 22ch, balanced." },
+      "headline": { "displayName": "Headline", "purpose": "Section heads — no eyebrow." },
+      "body": { "displayName": "Body", "purpose": "Narrative — 65-75ch max." }
+    },
+    "shadows": [
+      { "name": "hover-lift", "value": "0 8px 32px rgba(0,0,0,0.08)", "purpose": "Project card hover." },
+      { "name": "window", "value": "0 20px 60px rgba(0,0,0,0.10)", "purpose": "Hero preview window." }
+    ],
+    "motion": [
+      { "name": "ease-standard", "value": "cubic-bezier(0.25,0.1,0.25,1)", "purpose": "Reveal and state transitions." }
+    ],
+    "breakpoints": [
+      { "name": "sm", "value": "640px" },
+      { "name": "md", "value": "768px" },
+      { "name": "lg", "value": "1024px" },
+      { "name": "xl", "value": "1280px" }
+    ]
+  },
+  "components": [
+    {
+      "name": "Primary Button",
+      "kind": "button",
+      "refersTo": "button-primary",
+      "description": "Main CTA — single accent, pill, 48px.",
+      "html": "<button class=\"ds-btn-primary\">View My Work</button>",
+      "css": ".ds-btn-primary{background:#0071E3;color:#fff;border:none;border-radius:9999px;padding:0 28px;height:48px;font:500 14px/1 Inter,sans-serif;letter-spacing:-0.01em;transition:background 150ms cubic-bezier(0.25,0.1,0.25,1)} .ds-btn-primary:hover{background:#0077ED} .ds-btn-primary:active{background:#006EDB} .ds-btn-primary:focus-visible{outline:2px solid #0071E3;outline-offset:2px}"
+    },
+    {
+      "name": "Project Card",
+      "kind": "card",
+      "refersTo": "card",
+      "description": "Lifts on hover, image scales 1.03, arrow nudges.",
+      "html": "<a class=\"ds-card\"><img class=\"ds-card-img\" alt=\"\"/><span class=\"ds-card-pill\">Web Development · 2025</span><h3 class=\"ds-card-title\">PKU Masjid Istiqlal PMB Platform</h3><p class=\"ds-card-desc\">A modern admission platform.</p></a>",
+      "css": ".ds-card{background:#fff;border:1px solid rgba(0,0,0,0.06);border-radius:24px;overflow:hidden;transition:box-shadow 250ms} .ds-card:hover{box-shadow:0 8px 32px rgba(0,0,0,0.08)} .ds-card-img{aspect-ratio:16/10;object-fit:cover;transition:transform 700ms} .ds-card:hover .ds-card-img{transform:scale(1.03)}"
+    }
+  ],
+  "narrative": {
+    "northStar": "The Quiet Gallery",
+    "overview": "A portfolio where the work hangs like prints in a calm gallery — vast whitespace, surgical typography, and a single blue thread of interaction.",
+    "keyCharacteristics": ["Typography-first hierarchy","Generous whitespace","Neutral paper + single accent","Large media 16:10","One authored motion per page"],
+    "rules": [
+      { "name": "The One Voice Rule", "body": "The accent appears only on actionable elements; never on headings or decorative surfaces.", "section": "colors" },
+      { "name": "The No-Eyebrow Rule", "body": "Headings stand alone — kicker labels deleted.", "section": "typography" },
+      { "name": "The Flat-By-Default Rule", "body": "No shadow at rest; shadows appear only on hover/elevation.", "section": "elevation" }
+    ],
+    "dos": ["Do let work provide color; keep chrome neutral.","Do theme selection, scrollbar, focus ring from palette."],
+    "donts": ["Don't place kicker/eyebrow above heading.","Don't use gradient text or glass-as-decoration.","Don't nest cards."]
+  }
+}
